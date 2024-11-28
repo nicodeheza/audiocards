@@ -1,0 +1,6 @@
+lib/**
+ffmpeg.exe
+meta.json
+NOTES.txt
+.vscode
+__pycache__
