@@ -8,7 +8,7 @@ Currently, the add-on **only works on Windows**. If you are a developer and want
 
 ## Installation
 
-You can install it directly through the regular Anki add-on installation process. Here is the add-on link. (TODO)
+You can install it directly through the regular Anki add-on installation process. Here is the [add-on link](https://ankiweb.net/shared/info/1117983796). (TODO)
 
 To install it through GitHub, clone this repo to your Anki add-on directory. Then:
 
