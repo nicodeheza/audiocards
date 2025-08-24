@@ -12,12 +12,12 @@ def getLanguages():
         langs.append(langs_map[l])
     return langs
 
+
 def getLangMap():
     original_lang_map = lang.tts_langs()
     return {v: k for k, v in original_lang_map.items()}
 
-def textToSpeech(text:str, lang: str, file_name:str):
-    print(lang)
-    obj = gTTS(text=text, lang= lang, slow= False)
+
+def textToSpeech(text: str, lang: str, file_name: str):
+    obj = gTTS(text=text, lang=lang, slow=False)
     obj.save(file_name)
-    
