@@ -30,8 +30,7 @@ def onExportAudioCardSelected(browser):
         directory_field = dialog.directory_input.text()
 
         config = mw.addonManager.getConfig(__name__)
-        if not config:
-            return
+        config = config if config else {}
         config["last_front_field"] = front_field
         config["last_back_field"] = back_field
         config["last_front_lang_field"] = front_lang_label
